@@ -17,9 +17,9 @@ Jauna rinda
 
 ***Viss šis teksts ir svarīgs***
 
-<sub>Šis ir apakšraksts</sub>
+Šis ir <sub>apakšraksts</sub>
 
-<sup>Šis ir augšraksts</sup>
+Šis ir <sup>augšraksts</sup>
 
 Some basic Git commands are:
 ```
@@ -28,5 +28,10 @@ git add
 git commit
 ```
 
-[(https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)]
+[(https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)]  
 
++ melna kafija  
++ kapučīno  
++ šokolāde  
+* tēja  
+- late    
