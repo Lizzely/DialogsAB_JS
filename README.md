@@ -36,4 +36,5 @@ git commit
 + late  
 - melnā tēja 
 - augļu tēja  
-- zāļu tēja     
+- zāļu tēja 
+- karsts ūdens    
