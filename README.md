@@ -33,5 +33,7 @@ git commit
 + melna kafija  
 + kapučīno  
 + šokolāde  
-* tēja  
-- late    
++ late  
+- melnā tēja 
+- augļu tēja  
+- zāļu tēja     
