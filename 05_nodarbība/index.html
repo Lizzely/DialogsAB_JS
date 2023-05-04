@@ -9,9 +9,25 @@
 <p id="demo"></p>
 
 <script>
- console.log();  
+var ms = Date.now();
+console.log(ms);
+
+console.log(typeof(16));
+console.log(typeof("Volvo"));
 let x = 16 + "Volvo";
+console.log(typeof(x));
+
+console.log("Paragrāfa saturs pirms izmaiņām: ");
+console.log(document.getElementById("demo").innerHTML);
+
+ms = Date.now();
+console.log(ms);
 document.getElementById("demo").innerHTML = x;
+console.log("Paragrāfa saturs pēc izmaiņām: ");
+console.log(document.getElementById("demo").innerHTML);
+
+ms = Date.now();
+console.log(ms);
 </script>
 
 </body>
