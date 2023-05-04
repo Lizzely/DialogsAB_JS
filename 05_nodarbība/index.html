@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <body>
 
     <h2>JavaScript</h2>
@@ -10,12 +9,13 @@
     <p id="demo"></p>
 
     <script>
+        var dati = 17;
         var ms = Date.now();
         console.log(ms);
 
-        console.log(typeof (16));
+        console.log(typeof (dati));
         console.log(typeof ("Volvo"));
-        let x = 16 + "Volvo";
+        let x = dati + "Volvo";
         console.log(typeof (x));
 
         console.log("Paragrāfa saturs pirms izmaiņām: ");
@@ -27,8 +27,12 @@
         console.log("Paragrāfa saturs pēc izmaiņām: ");
         console.log(document.getElementById("demo").innerHTML);
 
+        console.log(typeof(dati));
+
         ms = Date.now();
         console.log(ms);
+
+        console.log(typeof(dati));
     </script>
 
 </body>
