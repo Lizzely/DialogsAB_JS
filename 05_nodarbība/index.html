@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
     <h2>JavaScript</h2>
@@ -14,7 +15,7 @@
         console.log(ms);
 
         console.log("Mainīgā dati vērtība - " + DATI + ", datu tips" + typeof (DATI));
-        console.log(typeof("Volvo"));
+        console.log(typeof ("Volvo"));
         let x = DATI + "Volvo";
         console.log(typeof (x));
 
@@ -40,20 +41,29 @@
 
         console.log("Mainīgā dati vērtība - " + DATI + ", datu tips" + typeof (DATI));
         {
-        var a = 10;
-        console.log("Izdruka no bloka, mainīgā a vērtība - " + a);
+            var a = 10;
+            console.log("Izdruka no bloka, mainīgā a vērtība - " + a);
+            {
+                a = 20;
+                console.log("Izdruka no apakšbloka, mainīgā a vērtība - " + a)
+            }
         }
-        a = a*a;
+        a = a * a;
         console.log("Izdruka no bloka, mainīgā a vērtība - " + a);
 
         //console.log("Izdruka pirms bloka, mainīgā b vērtība - " + b);
         {
-        let b = 10;
-        console.log("Izdruka no bloka, mainīgā a vērtība - " + b);
+            let b = 10;
+            console.log("Izdruka no bloka, mainīgā b vērtība - " + b);
+            {
+                b = 30;
+                console.log("Izdruka no apakšbloka, mainīgā b vērtība - " + b)
+            }
         }
-        b = b*b;
+        b = b * b;
         console.log("Izdruka no bloka, mainīgā a vērtība - " + b);
 
     </script>
 </body>
+
 </html>
