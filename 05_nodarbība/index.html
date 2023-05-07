@@ -39,14 +39,21 @@
         console.log(ms);
 
         console.log("Mainīgā dati vērtība - " + DATI + ", datu tips" + typeof (DATI));
-
         {
         var a = 10;
         console.log("Izdruka no bloka, mainīgā a vērtība - " + a);
         }
+        a = a*a;
+        console.log("Izdruka no bloka, mainīgā a vērtība - " + a);
+
+        //console.log("Izdruka pirms bloka, mainīgā b vērtība - " + b);
+        {
+        let b = 10;
+        console.log("Izdruka no bloka, mainīgā a vērtība - " + b);
+        }
+        b = b*b;
+        console.log("Izdruka no bloka, mainīgā a vērtība - " + b);
 
     </script>
-
 </body>
-
 </html>
