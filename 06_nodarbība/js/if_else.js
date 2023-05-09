@@ -1,5 +1,5 @@
 const hour = new Date().getHours(); 
-let greeting;
+let greeting = "Good";
 
 /*
 if (hour < 18) {
@@ -11,10 +11,12 @@ if (hour < 18) {
 console.log(greeting);
 
 if (hour < 18) {
-    greeting = "Good";
+    //greeting = "Good";
+    //console.log(greeting);
     greeting = greeting + " day";
+    console.log(greeting);
 } else {
-    greeting = "Good";
+    //greeting = "Good";
     greeting = greeting + " evening";
 }
 
