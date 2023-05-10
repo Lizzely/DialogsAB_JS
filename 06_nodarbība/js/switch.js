@@ -25,10 +25,11 @@ switch (day_) {
     console.log(day);
     //day_ =7;
     break;
-      case 7:
+  case 7:
     day = "Saturdayyyyyy";
     console.log(day);
 }
+
 document.getElementById("demo_switch").innerHTML = "Today is " + day;
 
 
@@ -48,11 +49,29 @@ switch (day_) {
   case 5:
     day = "Friday";
     break;
-//  case 6:
-//    day = "Saturday";
-//    console.log(day);
-//    break;
-  default: 
-   text = "Looking forward to the Working day!";
-  }
-   document.getElementById("demo_switch").innerHTML = document.getElementById("demo_switch").innerHTML + text;
+  //  case 6:
+  //    day = "Saturday";
+  //    console.log(day);
+  //    break;
+  default:
+    text = "Looking forward to the Working day!";
+}
+document.getElementById("demo_switch").innerHTML =
+  document.getElementById("demo_switch").innerHTML + text;
+
+let a = 15;
+switch (true) {
+  case a > 5:
+    console.log("a (" + a + ") is bigger than 5");
+    break;
+  case a > 10:
+    console.log("a (" + a + ") is bigger than 10");
+    break;
+  default:
+    console.log("a (" + a + ") is smallerer or equal to 5");
+}
+
+// 15
+// > 5
+// > 10
+// > 15
