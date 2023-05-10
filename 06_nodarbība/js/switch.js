@@ -48,6 +48,10 @@ switch (day_) {
   case 5:
     day = "Friday";
     break;
+//  case 6:
+//    day = "Saturday";
+//    console.log(day);
+//    break;
   default: 
    text = "Looking forward to the Working day!";
   }
