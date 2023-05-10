@@ -19,7 +19,11 @@ switch (new Date().getDay()) {
   case 5:
     day = "Friday";
     break;
-  case  6:
+  case 6:
     day = "Saturday";
+    console.log(day);
+  case 6:
+    day = "Saturdayyyyyy";
+    console.log(day);
 }
 document.getElementById("demo_switch").innerHTML = "Today is " + day;
