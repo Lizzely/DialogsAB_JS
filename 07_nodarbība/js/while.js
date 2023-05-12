@@ -12,12 +12,14 @@ while (i <= 20) {
 }
 document.getElementById("demo_while").innerHTML = text;
 
-
 text = "";
-i = 2;
+i = 1;
 while (i <= 20) {
-    console.log("i: " + i);
-    text += "<br>" + i; // text = text + "<br>" + i;
-    i = i + 2; // i++; // i = i + 1; // i += 1;
+if (i < 10) {
+    text += "<br>" + 0 + i; // text = text + "<br>" + i;
+} else {
+    text += "<br>" + i;
+}
+    i ++; // i++; // i = i + 1;
 }
 document.getElementById("demo_while").innerHTML = text;
