@@ -1,9 +1,7 @@
-// Funkcija, kas pārveido decimālo skaitli uz citu sistēmu
 function convert(number, base) {
     return number.toString(base).toUpperCase();
 }
 
-// Funkcija, kas pievieno rindu tabulai ar četriem skaitļiem
 function addRow(dec, bin, oct, hex) {
     var table = document.getElementById("table");
     var row = document.createElement("tr");
@@ -16,7 +14,6 @@ function addRow(dec, bin, oct, hex) {
     table.appendChild(row);
 }
 
-// Cikls, kas izveido tabulu ar pirmajiem 10 decimālajiem skaitļiem
 for (var i = 0; i < 10; i++) {
     var dec = i;
     var bin = convert(i, 2);
