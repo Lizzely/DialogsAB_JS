@@ -7,7 +7,7 @@ var showCounter = () => console.log(counter);
 //let showCounter = () => console.log(counter);
 
 console.log(counter);
-showCounter(); 
+showCounter();
 
 console.log(window.counter);
 window.showCounter();
@@ -18,7 +18,7 @@ console.log('document.body.clientWidth:' + document.body.clientWidth);
 const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 console.log(`window.outerWidth: ${window.outerWidth}`);
 
-const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;  
+const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
 let features = 'height=600,width=800',
     url = 'http://https://www.javascripttutorial.net/javascript-bom/javascript-window/';
@@ -26,8 +26,8 @@ let features = 'height=600,width=800',
 
 
 setTimeout(() => {
-   // window.open('http://www.javascripttutorial.net/', 'about')
-   //window.open('http://www.javascripttutorial.net/', 'about')
+    // window.open('http://www.javascripttutorial.net/', 'about')
+    //window.open('http://www.javascripttutorial.net/', 'about')
     let jsWindow = window.open(url, 'about', features);
 }, 20000);
 
@@ -78,6 +78,6 @@ function cancelAlert_1() {
 }
 
 function cancelAlert_2() {
-        console.log(timeoutID_2)
-        console.log(clearTimeout(timeoutID_2));
-  }
+    console.log(timeoutID_2)
+    console.log(clearTimeout(timeoutID_2));
+}
