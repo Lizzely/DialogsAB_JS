@@ -13,23 +13,31 @@ console.log(window.counter);
 window.showCounter();
 
 console.log('window.innerWidth:' + window.innerWidth);
-console.log('document.documentElement.clientWidth:' + document.documentElement.clientWidth);
+console.log(
+    'document.documentElement.clientWidth:' +
+     document.documentElement.clientWidth
+     );
 console.log('document.body.clientWidth:' + document.body.clientWidth);
-const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+const width =
+ window.innerWidth ||
+  document.documentElement.clientWidth || 
+  document.body.clientWidth;
 console.log(`window.outerWidth: ${window.outerWidth}`);
 
-const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+const height =
+ window.innerHeight || 
+ document.documentElement.clientHeight || 
+ document.body.clientHeight;
 
 let features = 'height=600,width=800',
     url = 'http://https://www.javascripttutorial.net/javascript-bom/javascript-window/';
-
-
+    url = "http://127.0.0.1:5500";
 
 setTimeout(() => {
     // window.open('http://www.javascripttutorial.net/', 'about')
-    //window.open('http://www.javascripttutorial.net/', 'about')
-    let jsWindow = window.open(url, 'about', features);
-}, 20000);
+    //window.open('http://127.0.0.1:5500', 'about')
+    //let jsWindow = window.open(url, 'about', features);
+   //}, 20000);
 
 /*
 setTimeout(() => {
@@ -82,36 +90,28 @@ function cancelAlert_2() {
     console.log(clearTimeout(timeoutID_2));
 }
 
-
-
-
-
-
-
-
-
 var intervalID_1;
 //intervalID_1 = setInterval(console.log, 1000,'Viena sekunde no mūsu dzīves ir pagājusi...');
 console.log(intervalID_1);
 
 let intervalID;
- 
-    function toggleColor() {
-      let e = document.getElementById('flashtext');
-      console.log(e);
-      console.log(e.style);
-      console.log(e.style.color);
-      console.log(e.style.color == "red");
-      console.log(e.style.color == "red" ? "blue" : "red");
-      e.style.color = e.style.color == 'red' ? 'blue' : 'red';
-      console.log(e.style.color);
-      console.log("\n");
+
+function toggleColor() {
+    let e = document.getElementById('flashtext');
+    console.log(e);
+    console.log(e.style);
+    console.log(e.style.color);
+    console.log(e.style.color == "red");
+    console.log(e.style.color == "red" ? "blue" : "red");
+    e.style.color = e.style.color == 'red' ? 'blue' : 'red';
+    console.log(e.style.color);
+    console.log("\n");
     }
 
-    function stop() {
-      clearInterval(intervalID);
-    }
+function stop() {
+    clearInterval(intervalID);
+}
 
-    function start() {
-       intervalID = setInterval(toggleColor, 1000); 
-    }
+function start() {
+    intervalID = setInterval(toggleColor, 1000);
+}
