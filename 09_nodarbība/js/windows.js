@@ -33,7 +33,7 @@ let features = 'height=600,width=800',
     url = 'http://https://www.javascripttutorial.net/javascript-bom/javascript-window/';
 url = "http://127.0.0.1:5500";
 
-setTimeout(() => {
+    //setTimeout(() => {
     // window.open('http://www.javascripttutorial.net/', 'about')
     //window.open('http://127.0.0.1:5500', 'about')
     //let jsWindow = window.open(url, 'about', features);
@@ -134,4 +134,3 @@ setTimeout(() => {
     for (const entry of urlParams.entries()) {
         console.log(entry);
     }
-    
