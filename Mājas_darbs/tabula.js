@@ -24,4 +24,16 @@
   }
 
   createConversionTable();
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    var table = document.getElementById("conversionTable");
+    var rows = table.getElementsByTagName("tr");
+    for (var i = 0; i < rows.length; i++) {
+      if (i % 2 === 0) {
+        rows[i].classList.add("even");
+      } else {
+        rows[i].classList.add("odd");
+      }
+    }
+  });
   
